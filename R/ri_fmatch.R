@@ -11,12 +11,17 @@
 #' We need two objects and the method to match:
 #'
 #' 1. name_old: is the string vector of name (that we need to match)
+#'
 #' 2. key: a data.frame with at least two variables: name and key (e.g, gvkey or cusip)
+#'
 #' 3. Method: default is "dl". Other methods:  "osa", "lv", "dl", "hamming", "lcs", "qgram", "cosine", "jaccard", "jw", "soundex". Detail: ?stringdist::stringdist
 #'
 #' Example:
+#'
 #' data("key")
+#'
 #' old <- name_old$name_old
+#'
 #' match <- ri_fmatch(old, key)
 #'
 ri_fmatch <- function(name_old, key, method_type = "dl") {
