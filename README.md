@@ -12,3 +12,9 @@ This package includes some important and in-need functions for my study. You can
 1. mread_csv: Read multiple files of `csv` type, filter by conditions, then combine in one data.frame
 2. ri_fmatch: Fuzzy match 2 vector of strings and return the output vector
 3. ri_raven: Manipulate with Raven Pack database about corporate news (will update soon)
+
+## How to install
+It is easy from R.
+```r
+devtools::install_github("diengiau/rifin")
+```
