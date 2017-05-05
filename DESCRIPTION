@@ -1,0 +1,16 @@
+Package: rifin
+Title: R in Finance
+Version: 0.1.0
+Authors@R: person("Dien Giau", "Bui", email = "buidiengiau@gmail.com", role = c("aut", "cre"))
+Description: R in Finance (or Richard Finance).
+Depends: R (>= 3.3.3)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports:
+    data.table,
+    plyr,
+    tidyverse,
+    parallel,
+    stringdist
+RoxygenNote: 6.0.1.9000

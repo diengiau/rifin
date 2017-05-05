@@ -1,0 +1,23 @@
+## 1. Descriptions:
+`ri_fmatch` is the function to fuzzy-match two string vectors and returns the output with: name_old, name_matched, and key.
+
+In this version, I allow only one key (i.e., gkvey or cusip) in the `key` file. I will update later.
+We need two objects:
+- `name_old`: is a string vector of name that we need to match
+- `key`: a data.frame with 2 variables: name and key
+
+The output will be a [tibble](http://r4ds.had.co.nz/tibbles.html) with 3 variables: name_old, name_matched (from `key` file), and key.
+
+## 2. Features
+1. Use `stringdist` package, default method is `dl`.
+2. Include the parallel `parLapply` to improve the performance. It reduces a lot of time to run. For example, if I use `lapply`, it takes hours to finish (e.g., a football match). Thanks to this parallel, we can save time (e.g., a Chopin piece only). 
+
+## 3. Dependencies
+You should install these dependent packages:
+- `tidyverse`
+- `stringdist`
+- `parallel`
+
+
+## 4. Example
+Update later. Sorry.
