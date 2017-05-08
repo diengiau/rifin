@@ -12,6 +12,7 @@
 #' @param location an address of .csv files
 #' @param condition the condition of the filter
 #' @return a data.frame
+#' @export
 #' @examples
 #' mread_csv("home/", x > 0)
 #'

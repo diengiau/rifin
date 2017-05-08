@@ -19,6 +19,7 @@
 #' @param name_old a vector
 #' @param key a data.frame
 #' @return the matching between \code(name_old) and \code(key)
+#' @export
 #' @examples
 #'
 #' data("key")
