@@ -1,4 +1,4 @@
-#' mread_csv function
+#' @title mread_csv function
 #'
 #' ver: 0.1.0
 #'
@@ -6,7 +6,14 @@
 #'
 #' In package `rifin`
 #'
-#' Description: This load all .csv file in a folder, filter based on conditions, then rbind (i.e., rows combine) together
+#' @description
+#' This load all .csv file in a folder, filter based on conditions, then rbind (i.e., rows combine) together
+#'
+#' @param location an address of .csv files
+#' @param condition the condition of the filter
+#' @return a data.frame
+#' @examples
+#' mread_csv("home/", x > 0)
 #'
 mread_csv <- function(location, condition ="") {
   require(data.table)

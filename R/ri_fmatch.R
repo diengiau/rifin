@@ -1,4 +1,4 @@
-#' ri_fmatch function
+#' @title ri_fmatch function
 #'
 #' ver: 0.1.0
 #'
@@ -16,7 +16,10 @@
 #'
 #' 3. Method: default is "dl". Other methods:  "osa", "lv", "dl", "hamming", "lcs", "qgram", "cosine", "jaccard", "jw", "soundex". Detail: ?stringdist::stringdist
 #'
-#' Example:
+#' @param name_old a vector
+#' @param key a data.frame
+#' @return the matching between \code(name_old) and \code(key)
+#' @examples
 #'
 #' data("key")
 #'
