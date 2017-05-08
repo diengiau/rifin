@@ -2,23 +2,7 @@
 % Please edit documentation in R/ri_fmatch.R
 \name{ri_fmatch}
 \alias{ri_fmatch}
-\title{ri_fmatch function
-
-ver: 0.1.0
-
-Author: Dien Giau Bui (aka Richard)
-
-In package `rifin`
-
-Description: This function fuzzy-match 2 vector of strings and return the output vector. In this version, I allow only one key.
-
-We need two objects and the method to match:
-
-1. name_old: is the string vector of name (that we need to match)
-
-2. key: a data.frame with at least two variables: name and key (e.g, gvkey or cusip)
-
-3. Method: default is "dl". Other methods:  "osa", "lv", "dl", "hamming", "lcs", "qgram", "cosine", "jaccard", "jw", "soundex". Detail: ?stringdist::stringdist}
+\title{ri_fmatch function}
 \usage{
 ri_fmatch(name_old, key, method_type = "dl")
 }
@@ -29,6 +13,21 @@ ri_fmatch(name_old, key, method_type = "dl")
 }
 \value{
 the matching between \code(name_old) and \code(key)
+}
+\description{
+ver: 0.1.0
+
+Author: Dien Giau Bui (aka Richard)
+
+This function fuzzy-match 2 vector of strings and return the output vector. In this version, I allow only one key.
+
+We need two objects and the method to match:
+
+1. name_old: is the string vector of name (that we need to match)
+
+2. key: a data.frame with at least two variables: name and key (e.g, gvkey or cusip)
+
+3. Method: default is "dl". Other methods:  "osa", "lv", "dl", "hamming", "lcs", "qgram", "cosine", "jaccard", "jw", "soundex". Detail: ?stringdist::stringdist
 }
 \examples{
 

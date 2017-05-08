@@ -1,12 +1,12 @@
 #' @title ri_fmatch function
 #'
+#'
+#' @description
 #' ver: 0.1.0
 #'
 #' Author: Dien Giau Bui (aka Richard)
 #'
-#' In package `rifin`
-#'
-#' Description: This function fuzzy-match 2 vector of strings and return the output vector. In this version, I allow only one key.
+#' This function fuzzy-match 2 vector of strings and return the output vector. In this version, I allow only one key.
 #'
 #' We need two objects and the method to match:
 #'

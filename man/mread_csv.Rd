@@ -2,13 +2,7 @@
 % Please edit documentation in R/mread_csv.R
 \name{mread_csv}
 \alias{mread_csv}
-\title{mread_csv function
-
-ver: 0.1.0
-
-Author: Dien Giau Bui (aka Richard)
-
-In package `rifin`}
+\title{mread_csv function}
 \usage{
 mread_csv(location, condition = "")
 }
@@ -21,6 +15,10 @@ mread_csv(location, condition = "")
 a data.frame
 }
 \description{
+ver: 0.1.0.
+
+Author: Dien Giau Bui (aka Richard)
+
 This load all .csv file in a folder, filter based on conditions, then rbind (i.e., rows combine) together
 }
 \examples{
