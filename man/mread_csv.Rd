@@ -2,17 +2,28 @@
 % Please edit documentation in R/mread_csv.R
 \name{mread_csv}
 \alias{mread_csv}
-\title{mread_csv function}
+\title{mread_csv function
+
+ver: 0.1.0
+
+Author: Dien Giau Bui (aka Richard)
+
+In package `rifin`}
 \usage{
 mread_csv(location, condition = "")
 }
-\description{
-ver: 0.1.0
+\arguments{
+\item{location}{an address of .csv files}
+
+\item{condition}{the condition of the filter}
 }
-\details{
-Author: Dien Giau Bui (aka Richard)
+\value{
+a data.frame
+}
+\description{
+This load all .csv file in a folder, filter based on conditions, then rbind (i.e., rows combine) together
+}
+\examples{
+mread_csv("home/", x > 0)
 
-In package `rifin`
-
-Description: This load all .csv file in a folder, filter based on conditions, then rbind (i.e., rows combine) together
 }

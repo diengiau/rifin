@@ -2,14 +2,10 @@
 % Please edit documentation in R/ri_fmatch.R
 \name{ri_fmatch}
 \alias{ri_fmatch}
-\title{ri_fmatch function}
-\usage{
-ri_fmatch(name_old, key, method_type = "dl")
-}
-\description{
+\title{ri_fmatch function
+
 ver: 0.1.0
-}
-\details{
+
 Author: Dien Giau Bui (aka Richard)
 
 In package `rifin`
@@ -22,13 +18,24 @@ We need two objects and the method to match:
 
 2. key: a data.frame with at least two variables: name and key (e.g, gvkey or cusip)
 
-3. Method: default is "dl". Other methods:  "osa", "lv", "dl", "hamming", "lcs", "qgram", "cosine", "jaccard", "jw", "soundex". Detail: ?stringdist::stringdist
+3. Method: default is "dl". Other methods:  "osa", "lv", "dl", "hamming", "lcs", "qgram", "cosine", "jaccard", "jw", "soundex". Detail: ?stringdist::stringdist}
+\usage{
+ri_fmatch(name_old, key, method_type = "dl")
+}
+\arguments{
+\item{name_old}{a vector}
 
-Example:
+\item{key}{a data.frame}
+}
+\value{
+the matching between \code(name_old) and \code(key)
+}
+\examples{
 
 data("key")
 
 old <- name_old$name_old
 
 match <- ri_fmatch(old, key)
+
 }
