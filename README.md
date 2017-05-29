@@ -1,5 +1,5 @@
 # rifin
-- project: R in Finance (or you can understand the name as "Richard Finance".
+- project: R in Finance (or you can understand the name as "Richard Finance", :stuck_out_tongue_closed_eyes::stuck_out_tongue_closed_eyes::stuck_out_tongue_closed_eyes:)
 - :boy: : Dien Giau Bui (aka Richard)
 - :office: : NTU
 - ver: 0.1.0 in May 2017
