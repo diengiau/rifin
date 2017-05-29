@@ -1,6 +1,7 @@
 # rifin
-- name of project: R in Finance (or you can understand the name as "Richard Finance".
-- author: Dien Giau Bui (aka Richard)
+- project: R in Finance (or you can understand the name as "Richard Finance".
+- :boy: : Dien Giau Bui (aka Richard)
+- :office: : NTU
 - ver: 0.1.0 in May 2017
 - personal website: [https://diengiau.github.io/](https://diengiau.github.io/)
 
